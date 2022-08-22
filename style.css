@@ -1,0 +1,202 @@
+/* General styles */
+
+html {
+    font-size: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-family: Roboto, sans-serif;
+    background-color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 1rem;
+    color: #dedede;
+}
+
+/* Header - navigation */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.nav__menu-item-link {
+    display: inline-block;
+    color: #dedede;
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transform: scale(1);
+    transition: .2s ease-in-out;
+}
+
+.nav__menu-item-link:hover {
+    transform: scale(1.1);
+}
+
+/* Header - hero */
+
+.hero {
+    height: 400px;
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__about {
+    height: 100%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.hero__about-title {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.hero__about-txt {
+    font-size: 2.3rem;
+}
+
+.hero__about-btn {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    padding: 1rem 1.5rem;
+    border-radius: .6em;
+    background-color: #3882F6;
+    align-self: flex-start;
+    transition: .2s ease-in-out;
+}
+
+.hero__about-btn:hover {
+    background-color: #1F2937;
+    color: #dedede;
+}
+
+.hero__picture {
+    width: 55%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__picture-item {
+    width: 100%;
+}
+/* Main */
+/* Features section */
+
+.features {
+    background-color: #FFF;
+}
+
+.features__container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.features__title {
+    font-size: 4rem;
+    padding: 0 0 4rem;
+    text-align: center;
+}
+
+.features__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features__item {
+    flex-shrink: 0;
+    width: 230px;
+    min-height: 260px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.features__item-picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__item-picture-img {
+    width: 80%;
+}
+
+.features__item-desc {
+    font-size: 2rem;
+}
+
+/* Quote Section */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote__container {
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.quote__txt {
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.quote__signature {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: right;
+}
